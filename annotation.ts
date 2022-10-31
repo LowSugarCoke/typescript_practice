@@ -8,8 +8,8 @@ function mayReturnEitherStringOrNumber(b: boolean): string | number {
     }
 }
 
-const age = <number>mayReturnEitherStringOrNumber(false);
-console.log(typeof age);
+const ageAsInt = <number>mayReturnEitherStringOrNumber(false);
+console.log(typeof ageAsInt);
 
 const ageAsString = mayReturnEitherStringOrNumber(true) as string;
 console.log(typeof ageAsString);
