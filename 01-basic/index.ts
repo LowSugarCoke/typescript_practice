@@ -47,3 +47,64 @@ absolutelyEitherNullOrString = 'Assigned with string, again...';
 
 
 
+// object
+let info = {
+    name: 'Maxwell',
+    age: 20,
+    hasPet: false
+}
+
+let someone = {
+    knows: undefined,
+    identify: null
+}
+
+info.name = "JackLee";
+info.age = 28;
+info.hasPet = true;
+someone.knows = undefined;
+someone.identify = null;
+
+// Warning
+// info.name = false;
+// info.age = "20";
+// info.hasPet = "false";
+// someone.knows = 123;
+// someone.identify = 123;
+
+// object override
+info = {
+    name: 'JackLee',
+    age: 28,
+    hasPet: true
+}
+
+// Warning
+// info = {
+//     name: 'JackLee',
+//     age: 28
+// }
+
+// Warning
+// info = {
+//     name: 'JackLee',
+//     age: 28,
+//     hasPet: true,
+//     like: true
+// }
+
+// Object annotation
+let justAndObject: object = { hello: 'World' };
+// justAndObject.hello = "Jack";
+// justAndObject.hello = null;
+justAndObject = { goodbye: 'Hee' };
+// justAndObject.newProp = 123;
+
+// justAndObject = 123;
+justAndObject = [1, '2', 3, '4', 5, true, { hello: 'world' }];
+justAndObject = function () { console.log("hello world") };
+justAndObject = new Object();
+justAndObject = new String("Hello world");
+justAndObject = new Number(123);
+justAndObject = Object;
+justAndObject = Array;
