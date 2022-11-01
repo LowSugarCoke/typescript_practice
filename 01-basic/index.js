@@ -105,3 +105,52 @@ let doesItWork2 = function doesItWork2() {
 let doesItWork4 = function doesItWork4() {
     return undefined;
 };
+// Array
+// number
+let numbers = [1, 2, 3, 4, 5];
+numbers[1] = 123;
+// numbers[3] = '123';
+numbers.push(456);
+// numbers.push('456');
+numbers.concat([789, 987]);
+// numbers.concat(['789','987']);
+numbers = [666, 888];
+// numbers=['hello world'];
+// string
+let strings = ['hi', 'how are you', 'goodbye'];
+// number + string
+let numbersAndStrings = [1, '2', 42, 666, "Devils don't actually like to wear Prada!"];
+let objectsArray1 = [
+    { message: 'Hello' },
+    { message: 'Hi' },
+    { message: 'Goodbye' }
+];
+let objectsArray2 = [
+    { message: 'Hello' },
+    { message: 'Hi', revolt: true },
+    { message: 'Goodbye' }
+];
+let objectsArray3 = [
+    { message: 'Hello' },
+    { message: 10100100 },
+    { message: 'Goodbye' }
+];
+let functionsArray = [
+    function addition(num1, num2) { return num1 + num2; },
+    function subtraction(num1, num2) { return num1 - num2; },
+    function multiplication(num1, num2) { return num1 * num2; },
+    function division(num1, num2) { return num1 / num2; }
+];
+let arraysArray = [
+    [1, 2],
+    ['Hello', 'World', 'AABAA'],
+    [true, false, true, true, false],
+];
+let miscellaneousArraysArray = [
+    [1, 2, 3],
+    ['Hello', 'World'],
+    [true, false, 123, null],
+    ['String', undefined],
+];
+let canBeEitherNullOrNumbers = [1, 2, 4];
+canBeEitherNullOrNumbers.splice(2, 0, null);
