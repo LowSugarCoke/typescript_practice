@@ -9,7 +9,7 @@ function mayReturnEitherStringOrNumber(b) {
         ;
     }
 }
-const age = mayReturnEitherStringOrNumber(false);
-console.log(typeof age);
+const ageAsInt = mayReturnEitherStringOrNumber(false);
+console.log(typeof ageAsInt);
 const ageAsString = mayReturnEitherStringOrNumber(true);
 console.log(typeof ageAsString);
