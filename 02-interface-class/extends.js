@@ -1,5 +1,5 @@
 "use strict";
-let accountMaxwell = {
+let accountMaxWell = {
     email: 'max@example.com',
     password: '<hashed-password>',
     subscribed: false,
