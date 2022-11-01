@@ -111,19 +111,19 @@ justAndObject = Array;
 
 // Function
 
-let aSimpleFunction = function(){console.log('Hi!');};
+let aSimpleFunction = function () { console.log('Hi!'); };
 
-let addition = function(num1:number, num2:number):number{
-    return num1+num2;
+let addition = function (num1: number, num2: number): number {
+    return num1 + num2;
 }
 
-let shouldBeString = addition(123,456);
+let shouldBeString = addition(123, 456);
 
-let doesItWork1 = function doesItWork1(){
+let doesItWork1 = function doesItWork1() {
     return undefined;
 }
 
-let doesItWork2 = function doesItWork2(): undefined{
+let doesItWork2 = function doesItWork2(): undefined {
     return undefined;
 }
 
@@ -131,13 +131,13 @@ let doesItWork2 = function doesItWork2(): undefined{
 
 // }
 
-let doesItWork4 = function doesItWork4():void{
+let doesItWork4 = function doesItWork4(): void {
     return undefined;
 }
 
 // Array
 // number
-let numbers = [1,2,3,4,5]
+let numbers = [1, 2, 3, 4, 5]
 
 numbers[1] = 123;
 // numbers[3] = '123';
@@ -145,56 +145,57 @@ numbers[1] = 123;
 numbers.push(456);
 // numbers.push('456');
 
-numbers.concat([789,987]);
+numbers.concat([789, 987]);
 // numbers.concat(['789','987']);
 
-numbers=[666,888];
+numbers = [666, 888];
 // numbers=['hello world'];
 
 // string
-let strings = ['hi','how are you','goodbye']
+let strings = ['hi', 'how are you', 'goodbye']
 
 // number + string
-let numbersAndStrings = [1,'2',42,666,"Devils don't actually like to wear Prada!"];
+let numbersAndStrings = [1, '2', 42, 666, "Devils don't actually like to wear Prada!"];
 
 
 let objectsArray1 = [
-    {message:'Hello'},
-    {message:'Hi'},
-    {message:'Goodbye'}
+    { message: 'Hello' },
+    { message: 'Hi' },
+    { message: 'Goodbye' }
 ]
 
-let objectsArray2=[
-    {message:'Hello'},
-    {message:'Hi', revolt:true},
-    {message:'Goodbye'}
+let objectsArray2 = [
+    { message: 'Hello' },
+    { message: 'Hi', revolt: true },
+    { message: 'Goodbye' }
 ]
 
-let objectsArray3=[
-    {message:'Hello'},
-    {message:10100100},
-    {message:'Goodbye'}
+let objectsArray3 = [
+    { message: 'Hello' },
+    { message: 10100100 },
+    { message: 'Goodbye' }
 ]
 
 let functionsArray = [
-    function addition(num1:number, num2:number){return num1+num2},
-    function subtraction(num1:number, num2:number){return num1-num2},
-    function multiplication(num1:number, num2:number){return num1* num2},
-    function division(num1:number, num2:number){return num1/num2}
+    function addition(num1: number, num2: number) { return num1 + num2 },
+    function subtraction(num1: number, num2: number) { return num1 - num2 },
+    function multiplication(num1: number, num2: number) { return num1 * num2 },
+    function division(num1: number, num2: number) { return num1 / num2 }
 ];
 
 let arraysArray = [
-    [1,2],
-    ['Hello','World', 'AABAA'],
+    [1, 2],
+    ['Hello', 'World', 'AABAA'],
     [true, false, true, true, false],
 ];
 
 let miscellaneousArraysArray = [
-    [1,2,3],
-    ['Hello','World'],
-    [true,false,123,null],
-    ['String',undefined],
+    [1, 2, 3],
+    ['Hello', 'World'],
+    [true, false, 123, null],
+    ['String', undefined],
 ];
 
-let canBeEitherNullOrNumbers:(number |null)[] = [1,2,4];
+let canBeEitherNullOrNumbers: (number | null)[] = [1, 2, 4];
 canBeEitherNullOrNumbers.splice(2, 0, null);
+
