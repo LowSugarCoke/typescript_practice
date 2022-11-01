@@ -108,3 +108,30 @@ justAndObject = new String("Hello world");
 justAndObject = new Number(123);
 justAndObject = Object;
 justAndObject = Array;
+
+// Function
+
+let aSimpleFunction = function(){console.log('Hi!');};
+
+let addition = function(num1:number, num2:number):number{
+    return num1+num2;
+}
+
+let shouldBeString = addition(123,456);
+
+let doesItWork1 = function doesItWork1(){
+    return undefined;
+}
+
+let doesItWork2 = function doesItWork2(): undefined{
+    return undefined;
+}
+
+// let doesItWork3 = function doesItWork3():undefined{
+
+// }
+
+let doesItWork4 = function doesItWork4():void{
+    return undefined;
+}
+
