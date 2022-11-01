@@ -36,3 +36,4 @@ let infoAboutMaxwell: PersonInfo = {
     age: 20,
     hasPet: false,
 };
+
