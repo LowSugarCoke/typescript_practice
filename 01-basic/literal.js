@@ -8,8 +8,13 @@ let powerOp = function (n1, n2) {
 let powerOpWithNoParamsAnnotation = function (n1, n2) {
     return n1 ** n2;
 };
-let infoAboutMaxwell = {
-    name: 'Maxwell',
-    age: 20,
-    hasPet: false,
-};
+// type PersonInfo = {
+//     name: string,
+//     age: number,
+//     hasPet: boolean
+// };
+// let infoAboutMaxwell: PersonInfo = {
+//     name: 'Maxwell',
+//     age: 20,
+//     hasPet: false,
+// };

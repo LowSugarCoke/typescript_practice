@@ -11,14 +11,6 @@ var WeekDayEnum;
     WeekDayEnum[WeekDayEnum["Sat"] = 6] = "Sat";
 })(WeekDayEnum || (WeekDayEnum = {}));
 ;
-// Interface
-var Gender;
-(function (Gender) {
-    Gender[Gender["Male"] = 0] = "Male";
-    Gender[Gender["Female"] = 1] = "Female";
-    Gender[Gender["Other"] = 2] = "Other";
-})(Gender || (Gender = {}));
-;
 const maxwell = {
     name: 'Maxwell',
     age: 20,

@@ -12,7 +12,7 @@ type WeekDayString = 'Sun' | 'Mon' | 'Tue' | 'Wed' | 'Thu' | 'Fri' | 'Sat';
 type WeekDayFormat = WeekDayEnum | WeekDayString;
 
 // Interface
-enum Gender { Male, Female, Other };
+// enum Gender { Male, Female, Other };
 
 // Object
 interface UserInfo {
