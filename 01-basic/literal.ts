@@ -25,15 +25,15 @@ let powerOpWithNoParamsAnnotation: MathOperator = function (n1, n2) {
     return n1 ** n2;
 };
 
-type PersonInfo = {
-    name: string,
-    age: number,
-    hasPet: boolean
-};
+// type PersonInfo = {
+//     name: string,
+//     age: number,
+//     hasPet: boolean
+// };
 
-let infoAboutMaxwell: PersonInfo = {
-    name: 'Maxwell',
-    age: 20,
-    hasPet: false,
-};
+// let infoAboutMaxwell: PersonInfo = {
+//     name: 'Maxwell',
+//     age: 20,
+//     hasPet: false,
+// };
 
