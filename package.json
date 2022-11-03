@@ -1,5 +1,24 @@
 {
   "dependencies": {
     "colors": "^1.4.0"
-  }
+  },
+  "name": "typescript_practice",
+  "version": "1.0.0",
+  "main": "annotation.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LowSugarCoke/typescript_practice.git"
+  },
+  "keywords": [],
+  "author": "Jack Lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LowSugarCoke/typescript_practice/issues"
+  },
+  "homepage": "https://github.com/LowSugarCoke/typescript_practice#readme",
+  "description": ""
 }
