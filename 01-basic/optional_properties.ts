@@ -1,4 +1,4 @@
-enum Gender { Male, Female, Other };
+// enum Gender { Male, Female, Other };
 
 // type AccountInfo = {
 //     account: string,
